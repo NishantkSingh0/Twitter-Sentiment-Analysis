@@ -1,11 +1,14 @@
 from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Embedding, LSTM, Dense
+from tensorflow as tf
 
 def build_model():
     model=Sequential([
-        Embedding(input_dim=10000, output_dim=64, input_length=40),
-        LSTM(64),
-        Dense(1, activation='sigmoid')
+        tf.keras.layers.Dense(128,activation='relu'),
+        tf.keras.layers.LayerNormalization(epsilon=1e-6),
+        tf.keras.layers.Dense(64,activation='relu'),
+        tf.keras.layers.Dropout(rate=0.2),
+        tf.keras.layers.Dense(64,activation='relu'),
+        tf.keras.layers.Dense(1,activation='sigmoid')
     ])
     model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
     return model
