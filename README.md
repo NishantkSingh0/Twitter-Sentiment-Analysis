@@ -78,23 +78,20 @@ This project aims to perform **sentiment classification** (Happy 😄 / Angry �
 
 ## 📁 File Structure
 
-```bash
-📦tweet-sentiment-analysis/
- ┣ 📜TweeterSentimentAnalysis.ipynb     # Jupyter notebook for exploration & prototyping
- ┣ 📂tweet_sentiment_analysis_module/   # Python module for production code
- ┃ ┣ 📂models/
- ┃ ┃ ┣ 📜__init__.py
- ┃ ┃ ┗ 📜model.py                       # Contains model-building function
- ┃ ┣ 📂utils/
- ┃ ┃ ┣ 📜__init__.py
- ┃ ┃ ┗ 📜preprocess.py                  # Text cleaning, tokenization
- ┃ ┣ 📜main.py                          # Main script to train & evaluate the model
- ┃ ┗ 📜requirements.txt                 # Dependencies used in module
- ┗ 📜README.md                          # Project overview, usage instructions
-
 ```
-
-Live Colab link: <a href="https://colab.research.google.com/drive/1O56ZFA6zkZfhfUnjqdHeSStWm_XpyLg8?usp=sharing" target="_blank">TweeterSentimentAnalysis<a>
+📦tweet-sentiment-analysis/   
+ ┣ 📜TweeterSentimentAnalysis.ipynb     # Jupyter notebook for exploration & prototyping   
+ ┣ 📂Tweet_sentiment_analysis/          # Python module for production code   
+ ┃ ┣ 📂models/   
+ ┃ ┃ ┣ 📜__init__.py    
+ ┃ ┃ ┗ 📜model.py                       # Contains model-building function   
+ ┃ ┣ 📂utils/    
+ ┃ ┃ ┣ 📜__init__.py   
+ ┃ ┃ ┗ 📜preprocess.py                  # Text cleaning, tokenization   
+ ┃ ┣ 📜main.py                          # Main script to train & evaluate the model   
+ ┃ ┗ 📜requirements.txt                 # Dependencies used in module   
+ ┗ 📜README.md                          # Project overview, usage instructions   
+```
 
 <br><br>
 
@@ -111,8 +108,14 @@ Live Colab link: <a href="https://colab.research.google.com/drive/1O56ZFA6zkZfhf
 git clone https://github.com/nishantksingh0/Twitter-Sentiment-Analysis.git
 cd Twitter-Sentiment-Analysis
 pip install -r requirements.txt
-jupyter notebook TweeterSentimentAnalysis.ipynb
+cd Tweet_sentiment_analysis
+python main.py
 ```
+
+<br>
+
+Live Colab link: <a href="https://colab.research.google.com/drive/1O56ZFA6zkZfhfUnjqdHeSStWm_XpyLg8?usp=sharing" target="_blank">TweeterSentimentAnalysis<a>
+
 
 <br><br>
 
