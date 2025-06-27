@@ -90,8 +90,7 @@ This project aims to perform **sentiment classification** (Happy 😄 / Angry �
  ┃ ┃ ┗ 📜preprocess.py                  # Text cleaning, tokenization
  ┃ ┣ 📜main.py                          # Main script to train & evaluate the model
  ┃ ┗ 📜requirements.txt                 # Dependencies used in module
- ┣ 📜README.md                          # Project overview, usage instructions
- ┗ 📜requirements.txt                   # Top-level dependency list
+ ┗ 📜README.md                          # Project overview, usage instructions
 
 ```
 
