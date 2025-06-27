@@ -15,7 +15,7 @@ This project aims to perform **sentiment classification** (Happy 😄 / Angry �
 <br>
 
 1. **Dataset Source**
-   Used a Kaggle tweet sentiment dataset. *(Dataset not included here due to licensing – upload separately if needed.)*
+   Used a Kaggle [tweet sentiment dataset](https://www.kaggle.com/datasets/kazanova/sentiment140?select=training.1600000.processed.noemoticon.csv)
 
 <br>
 
