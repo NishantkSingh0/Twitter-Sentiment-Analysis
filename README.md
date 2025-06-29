@@ -123,7 +123,6 @@ Live Colab link: <a href="https://colab.research.google.com/drive/1O56ZFA6zkZfhf
 ## 📌 Future Work
 
 * Use full dataset to further test generalizability
-* Deploy the model as a web app (e.g., using Flask or Streamlit)
 * Try zero-shot sentiment classification with LLMs
 
 
