@@ -72,8 +72,14 @@ This project aims to perform **sentiment classification** (Happy 😄 / Angry �
 ## 📁 File Structure
 
 ```
-📦tweet-sentiment-analysis/   
- ┣ 📜TweeterSentimentAnalysis.ipynb     # Jupyter notebook for exploration & prototyping   
+📦tweet-sentiment-analysis/
+ ┣ 📂HuggingFace/                       # Deployment code
+ ┃ ┣ 📜app.py                           # Main file which manages dataflow and predictions                     
+ ┃ ┣ 📜Model.h5                         # The trained model on 10,00,000 tweets
+ ┃ ┗ 📜requirements.txt                 # deploymentModules spedcification
+ ┃
+ ┣ 📜TweeterSentimentAnalysis.ipynb     # Jupyter notebook for exploration & prototyping
+ ┃ 
  ┣ 📂Tweet_sentiment_analysis/          # Python module for production code   
  ┃ ┣ 📂models/   
  ┃ ┃ ┣ 📜__init__.py    
