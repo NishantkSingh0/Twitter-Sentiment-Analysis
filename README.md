@@ -77,8 +77,6 @@ This project aims to perform **sentiment classification** (Happy 😄 / Angry �
  ┃ ┣ 📜app.py                           # Main file which manages dataflow and predictions                     
  ┃ ┣ 📜Model.h5                         # The trained model on 10,00,000 tweets
  ┃ ┗ 📜requirements.txt                 # deploymentModules spedcification
- ┃
- ┣ 📜TweeterSentimentAnalysis.ipynb     # Jupyter notebook for exploration & prototyping
  ┃ 
  ┣ 📂Tweet_sentiment_analysis/          # Python module for production code   
  ┃ ┣ 📂models/   
@@ -88,8 +86,10 @@ This project aims to perform **sentiment classification** (Happy 😄 / Angry �
  ┃ ┃ ┣ 📜__init__.py   
  ┃ ┃ ┗ 📜preprocess.py                  # Text cleaning, tokenization   
  ┃ ┣ 📜main.py                          # Main script to train & evaluate the model   
- ┃ ┗ 📜requirements.txt                 # Dependencies used in module   
- ┗ 📜README.md                          # Project overview, usage instructions   
+ ┃ ┗ 📜requirements.txt                 # Dependencies used in module
+ ┃
+ ┣ 📜README.md                          # Project overview, usage instructions
+ ┗ 📜TweeterSentimentAnalysis.ipynb     # Jupyter notebook for exploration & prototyping 
 ```
 
 
